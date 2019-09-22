@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1569191128371,
+  "timestamp": 1569194074701,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,7 @@
       "urls": [
         "/es2015-polyfills.bda95d5896422d031328.js",
         "/index.html",
-        "/main.2aae45bfd957de0c7c31.js",
+        "/main.3bef72957a378c6bb152.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
         "/styles.7caa6ef4e669ae29a193.css"
@@ -19,7 +19,7 @@
     },
     {
       "name": "assets",
-      "installMode": "lazy",
+      "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
         "/assets/icons/Icon-1024.png",
@@ -39,40 +39,39 @@
   ],
   "dataGroups": [
     {
-      "name": "lh-events-endpoint",
+      "name": "events-endpoint",
       "patterns": [
         "\\/(?:.+\\/)?api\\/events\\/getFutureEvents\\/latitude\\/0\\/longitude\\/0"
       ],
       "strategy": "performance",
       "maxSize": 20,
       "maxAge": 10800000,
-      "timeoutMs": 3000,
       "version": 1
     },
     {
-      "name": "lh-ip-endpoint",
+      "name": "ip-endpoint",
       "patterns": [
         "\\/(?:.+\\/)?api\\/app\\/getGeoFromIPOfRequest"
       ],
       "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 864000000,
-      "timeoutMs": 3000,
+      "timeoutMs": 1000,
       "version": 1
     },
     {
-      "name": "lh-dances-endpoint",
+      "name": "dances-endpoint",
       "patterns": [
         "\\/(?:.+\\/)?api\\/dances\\/getDances"
       ],
       "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 864000000,
-      "timeoutMs": 3000,
+      "timeoutMs": 1000,
       "version": 1
     },
     {
-      "name": "lh-geo-endpoint",
+      "name": "geo-endpoint",
       "patterns": [
         "\\/(?:.+\\/)?api\\/cities\\/country\\/Germany\\/minPop\\/.*",
         "\\/(?:.+\\/)?api\\/cities\\/getAllCities\\/minPop\\/.*"
@@ -80,7 +79,6 @@
       "strategy": "performance",
       "maxSize": 20,
       "maxAge": 2073600000,
-      "timeoutMs": 3000,
       "version": 1
     },
     {
@@ -112,8 +110,8 @@
     "/assets/icons/icon-96x96.png": "989b17d485cd5a45fbd6330fc3dc87acdee67c37",
     "/assets/icons/manifest.json": "c099d16876cc9a075f4e60e562f4598a22de40c1",
     "/es2015-polyfills.bda95d5896422d031328.js": "1612fe8f7e8e0c856f0885ff179e93363c67834f",
-    "/index.html": "e4bdf7b186a1c9b03ba5128844431501f1ab33ff",
-    "/main.2aae45bfd957de0c7c31.js": "428d45b4429ec28717b92259bcb9908c6e32c7e2",
+    "/index.html": "9cc8ad7f4f076a815c39ef5d06a0d2400593e276",
+    "/main.3bef72957a378c6bb152.js": "1b7d158920178888de9c2c3f5d37be86b4c460d4",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/styles.7caa6ef4e669ae29a193.css": "e6f52b774f6633a5b9ac2b8f64d79fb24220d182"
