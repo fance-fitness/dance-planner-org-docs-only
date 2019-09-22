@@ -1,0 +1,1 @@
+self.addEventListener("install",l=>{console.log("hallo michael")}),self.addEventListener("install",l=>{console.log("hallo michael")});
