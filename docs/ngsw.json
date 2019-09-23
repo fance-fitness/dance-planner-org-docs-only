@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1569247772829,
+  "timestamp": 1569273387817,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,7 @@
       "urls": [
         "/es2015-polyfills.bda95d5896422d031328.js",
         "/index.html",
-        "/main.ad67a65c69bd2e6ff7b6.js",
+        "/main.26c177acd22db7d685fe.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
         "/styles.7caa6ef4e669ae29a193.css"
@@ -23,12 +23,21 @@
       "updateMode": "prefetch",
       "urls": [
         "/assets/icons/Icon-1024.png",
+        "/assets/icons/Icon-128.png",
+        "/assets/icons/Icon-144.png",
+        "/assets/icons/Icon-152.png",
+        "/assets/icons/Icon-167.png",
+        "/assets/icons/Icon-172.png",
+        "/assets/icons/Icon-180.png",
+        "/assets/icons/Icon-196.png",
+        "/assets/icons/Icon-512.png",
         "/assets/icons/favicon.ico",
         "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144.png",
         "/assets/icons/icon-144x144-old.png",
+        "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
         "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-256x256.png",
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
@@ -55,7 +64,7 @@
       ],
       "strategy": "freshness",
       "maxSize": 20,
-      "maxAge": 864000000,
+      "maxAge": 86400000000,
       "timeoutMs": 1000,
       "version": 1
     },
@@ -66,7 +75,7 @@
       ],
       "strategy": "freshness",
       "maxSize": 20,
-      "maxAge": 864000000,
+      "maxAge": 86400000000,
       "timeoutMs": 1000,
       "version": 1
     },
@@ -78,7 +87,17 @@
       ],
       "strategy": "performance",
       "maxSize": 20,
-      "maxAge": 2073600000,
+      "maxAge": 86400000000,
+      "version": 1
+    },
+    {
+      "name": "communities-endpoint",
+      "patterns": [
+        "\\/(?:.+\\/)?api\\/community\\/getCommunities"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 86400000000,
       "version": 1
     },
     {
@@ -93,25 +112,34 @@
       ],
       "strategy": "performance",
       "maxSize": 1000,
-      "maxAge": 604800000,
+      "maxAge": 86400000000,
       "version": 1
     }
   ],
   "hashTable": {
     "/assets/icons/Icon-1024.png": "e6c4c24b110e29c54ba1543b71a15580811266cb",
+    "/assets/icons/Icon-128.png": "d524788b81e5b172cef4dc1b499b25b46bb0c446",
+    "/assets/icons/Icon-144.png": "69126ed9170ab213464cb83c0c736787abb10831",
+    "/assets/icons/Icon-152.png": "ab4f21b53e5ce2e2958fcb0fe601caa48c7e139d",
+    "/assets/icons/Icon-167.png": "10182cc4579d294c905403c2e07724b4dd441c89",
+    "/assets/icons/Icon-172.png": "8c9b0bcbd2dc093787b4dc8955dd9e7cd58f070f",
+    "/assets/icons/Icon-180.png": "549634e0db62b7c31f739da6aa8ffed01520d599",
+    "/assets/icons/Icon-196.png": "b2c2f93d9855b0627140bbab5f6b223c2273dd7d",
+    "/assets/icons/Icon-512.png": "0cea5da1780fbfb5dbd4829b877363d806933b87",
     "/assets/icons/favicon.ico": "beb5d04f0299f83c6d1e4561957b42518dcd6fb6",
     "/assets/icons/icon-128x128.png": "149ff56ef35d05d22153748b3d45aa226a2e5f2c",
-    "/assets/icons/icon-144.png": "69126ed9170ab213464cb83c0c736787abb10831",
     "/assets/icons/icon-144x144-old.png": "9cfe2dbefd18c0a37ce7879c8bcab4a3d823dd5e",
+    "/assets/icons/icon-144x144.png": "69126ed9170ab213464cb83c0c736787abb10831",
     "/assets/icons/icon-152x152.png": "3f9b0a093fd7058c522a3d1199317508aa234c3d",
     "/assets/icons/icon-192x192.png": "5434e11164ca9e963e1d91e678bcfb79d839ed11",
+    "/assets/icons/icon-256x256.png": "c1e5f30fe3cba0db1471e09f4bb2a0c12e071118",
     "/assets/icons/icon-512x512.png": "0cea5da1780fbfb5dbd4829b877363d806933b87",
     "/assets/icons/icon-72x72.png": "725151e933ae6a3ae62f37574153d822aaf02b61",
     "/assets/icons/icon-96x96.png": "989b17d485cd5a45fbd6330fc3dc87acdee67c37",
     "/assets/icons/manifest.json": "c099d16876cc9a075f4e60e562f4598a22de40c1",
     "/es2015-polyfills.bda95d5896422d031328.js": "1612fe8f7e8e0c856f0885ff179e93363c67834f",
-    "/index.html": "17fbef66cb4713cc8cade7f1ebbe91d4770a3a35",
-    "/main.ad67a65c69bd2e6ff7b6.js": "da2a98c594afc286a2c8525cc4635d2f5b619907",
+    "/index.html": "152c248b7d707ef5204202bec35fed4ee2c3ddc3",
+    "/main.26c177acd22db7d685fe.js": "4fe488a93c9a05e803113a3738a2acae34154c14",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/styles.7caa6ef4e669ae29a193.css": "e6f52b774f6633a5b9ac2b8f64d79fb24220d182"
