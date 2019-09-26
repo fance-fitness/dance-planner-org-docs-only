@@ -3,7 +3,7 @@
   "short_name": "dance-planner",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "icons": [
@@ -23,7 +23,7 @@
       "type": "image/png"
     },
     {
-      "src": "assets/icons/apple-icon-144x144.png",
+      "src": "assets/icons/icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
@@ -38,8 +38,8 @@
       "type": "image/png"
     },
     {
-      "src": "assets/icons/icon-256x256.png",
-      "sizes": "256x256",
+      "src": "assets/icons/icon-384x384.png",
+      "sizes": "384x384",
       "type": "image/png"
     },
     {
