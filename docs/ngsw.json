@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1569365078591,
+  "timestamp": 1569512042884,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,7 @@
       "urls": [
         "/es2015-polyfills.bda95d5896422d031328.js",
         "/index.html",
-        "/main.19f0f57924b83f4427df.js",
+        "/main.2d8d925382ee52afc9de.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
         "/styles.7caa6ef4e669ae29a193.css"
@@ -52,9 +52,10 @@
       "patterns": [
         "\\/(?:.+\\/)?api\\/events\\/getFutureEvents\\/latitude\\/0\\/longitude\\/0"
       ],
-      "strategy": "performance",
+      "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 10800000,
+      "timeoutMs": 7000,
       "version": 1
     },
     {
@@ -65,7 +66,7 @@
       "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 86400000000,
-      "timeoutMs": 1000,
+      "timeoutMs": 7000,
       "version": 1
     },
     {
@@ -76,7 +77,7 @@
       "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 86400000000,
-      "timeoutMs": 1000,
+      "timeoutMs": 7000,
       "version": 1
     },
     {
@@ -85,9 +86,10 @@
         "\\/(?:.+\\/)?api\\/cities\\/country\\/Germany\\/minPop\\/.*",
         "\\/(?:.+\\/)?api\\/cities\\/getAllCities\\/minPop\\/.*"
       ],
-      "strategy": "performance",
+      "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 86400000000,
+      "timeoutMs": 7000,
       "version": 1
     },
     {
@@ -98,6 +100,7 @@
       "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 86400000000,
+      "timeoutMs": 7000,
       "version": 1
     },
     {
@@ -110,9 +113,10 @@
         "\\/(?:.+\\/)?api\\/events\\/img\\/(?:.+\\/)?[^/]*[^/]*\\.jpeg",
         "\\/(?:.+\\/)?api\\/events\\/img\\/(?:.+\\/)?[^/]*[^/]*\\.png"
       ],
-      "strategy": "performance",
+      "strategy": "freshness",
       "maxSize": 1000,
       "maxAge": 86400000000,
+      "timeoutMs": 7000,
       "version": 1
     }
   ],
@@ -138,8 +142,8 @@
     "/assets/icons/icon-96x96.png": "989b17d485cd5a45fbd6330fc3dc87acdee67c37",
     "/assets/icons/manifest.json": "c099d16876cc9a075f4e60e562f4598a22de40c1",
     "/es2015-polyfills.bda95d5896422d031328.js": "1612fe8f7e8e0c856f0885ff179e93363c67834f",
-    "/index.html": "f85f04fd44ee29d5e951f80af341391b05dc4645",
-    "/main.19f0f57924b83f4427df.js": "32a8b516c80cd8e4c251fe23ea8efd989cc17f91",
+    "/index.html": "101992877ce07c23492b3de91d91eb2d817baa6d",
+    "/main.2d8d925382ee52afc9de.js": "66ae5360e3222d60005ebc75b9c812076b02a47d",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/styles.7caa6ef4e669ae29a193.css": "e6f52b774f6633a5b9ac2b8f64d79fb24220d182"
