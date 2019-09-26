@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1569512042884,
+  "timestamp": 1569514276818,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,7 @@
       "urls": [
         "/es2015-polyfills.bda95d5896422d031328.js",
         "/index.html",
-        "/main.2d8d925382ee52afc9de.js",
+        "/main.9d56780b640b11970054.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
         "/styles.7caa6ef4e669ae29a193.css"
@@ -31,6 +31,23 @@
         "/assets/icons/Icon-180.png",
         "/assets/icons/Icon-196.png",
         "/assets/icons/Icon-512.png",
+        "/assets/icons/android-icon-144x144.png",
+        "/assets/icons/android-icon-192x192.png",
+        "/assets/icons/android-icon-36x36.png",
+        "/assets/icons/android-icon-48x48.png",
+        "/assets/icons/android-icon-72x72.png",
+        "/assets/icons/android-icon-96x96.png",
+        "/assets/icons/apple-icon-114x114.png",
+        "/assets/icons/apple-icon-120x120.png",
+        "/assets/icons/apple-icon-144x144.png",
+        "/assets/icons/apple-icon-152x152.png",
+        "/assets/icons/apple-icon-180x180.png",
+        "/assets/icons/apple-icon-57x57.png",
+        "/assets/icons/apple-icon-60x60.png",
+        "/assets/icons/apple-icon-72x72.png",
+        "/assets/icons/apple-icon-76x76.png",
+        "/assets/icons/apple-icon-precomposed.png",
+        "/assets/icons/apple-icon.png",
         "/assets/icons/favicon.ico",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144-old.png",
@@ -55,7 +72,7 @@
       "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 10800000,
-      "timeoutMs": 7000,
+      "timeoutMs": 3000,
       "version": 1
     },
     {
@@ -66,7 +83,7 @@
       "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 86400000000,
-      "timeoutMs": 7000,
+      "timeoutMs": 3000,
       "version": 1
     },
     {
@@ -77,7 +94,7 @@
       "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 86400000000,
-      "timeoutMs": 7000,
+      "timeoutMs": 3000,
       "version": 1
     },
     {
@@ -89,7 +106,7 @@
       "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 86400000000,
-      "timeoutMs": 7000,
+      "timeoutMs": 3000,
       "version": 1
     },
     {
@@ -100,7 +117,7 @@
       "strategy": "freshness",
       "maxSize": 20,
       "maxAge": 86400000000,
-      "timeoutMs": 7000,
+      "timeoutMs": 3000,
       "version": 1
     },
     {
@@ -116,7 +133,7 @@
       "strategy": "freshness",
       "maxSize": 1000,
       "maxAge": 86400000000,
-      "timeoutMs": 7000,
+      "timeoutMs": 3000,
       "version": 1
     }
   ],
@@ -130,6 +147,23 @@
     "/assets/icons/Icon-180.png": "549634e0db62b7c31f739da6aa8ffed01520d599",
     "/assets/icons/Icon-196.png": "b2c2f93d9855b0627140bbab5f6b223c2273dd7d",
     "/assets/icons/Icon-512.png": "0cea5da1780fbfb5dbd4829b877363d806933b87",
+    "/assets/icons/android-icon-144x144.png": "68a1d27fa326a795cf784244922c356d6784c572",
+    "/assets/icons/android-icon-192x192.png": "13f998be4361ca21d66db77940c4e34ed5a63934",
+    "/assets/icons/android-icon-36x36.png": "6f5626c995cf89a880b8f68293d8bb7a8165ef75",
+    "/assets/icons/android-icon-48x48.png": "7c1c218b2ce7222eeb1838b27ccf40a77d74cc0e",
+    "/assets/icons/android-icon-72x72.png": "58678ba62855d4267d4ad3e79b2d613d1c903df1",
+    "/assets/icons/android-icon-96x96.png": "f04bb1f0c41d9c02c66f86802a363b84fb7c7319",
+    "/assets/icons/apple-icon-114x114.png": "91607c18e53332d2defec907cd428ad3ee540dd9",
+    "/assets/icons/apple-icon-120x120.png": "d085dad1a14b5437fefc0ce7f3ffadd1a7de4cab",
+    "/assets/icons/apple-icon-144x144.png": "68a1d27fa326a795cf784244922c356d6784c572",
+    "/assets/icons/apple-icon-152x152.png": "3b3af73279c317d0459a77778828908439199b34",
+    "/assets/icons/apple-icon-180x180.png": "fb512f094b7856933c524ea96fa532a430e2e1bd",
+    "/assets/icons/apple-icon-57x57.png": "7e836f58b81c6572f525cee40c3999eb40cb3fd9",
+    "/assets/icons/apple-icon-60x60.png": "5379f0d443e86cb7f0ea802f5120235a28f9d2de",
+    "/assets/icons/apple-icon-72x72.png": "58678ba62855d4267d4ad3e79b2d613d1c903df1",
+    "/assets/icons/apple-icon-76x76.png": "94e16ba79b4c14c1514e1cfe21501359bfd41da8",
+    "/assets/icons/apple-icon-precomposed.png": "7020c501e30b01e9e6ca45a4cf0cb6d4743cae3d",
+    "/assets/icons/apple-icon.png": "7020c501e30b01e9e6ca45a4cf0cb6d4743cae3d",
     "/assets/icons/favicon.ico": "beb5d04f0299f83c6d1e4561957b42518dcd6fb6",
     "/assets/icons/icon-128x128.png": "149ff56ef35d05d22153748b3d45aa226a2e5f2c",
     "/assets/icons/icon-144x144-old.png": "9cfe2dbefd18c0a37ce7879c8bcab4a3d823dd5e",
@@ -142,8 +176,8 @@
     "/assets/icons/icon-96x96.png": "989b17d485cd5a45fbd6330fc3dc87acdee67c37",
     "/assets/icons/manifest.json": "c099d16876cc9a075f4e60e562f4598a22de40c1",
     "/es2015-polyfills.bda95d5896422d031328.js": "1612fe8f7e8e0c856f0885ff179e93363c67834f",
-    "/index.html": "101992877ce07c23492b3de91d91eb2d817baa6d",
-    "/main.2d8d925382ee52afc9de.js": "66ae5360e3222d60005ebc75b9c812076b02a47d",
+    "/index.html": "3865882cb88d6341de1bb8aed831951fb8fe74a6",
+    "/main.9d56780b640b11970054.js": "398fe6e8fc22232212bca6912977e0fc1e001681",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/styles.7caa6ef4e669ae29a193.css": "e6f52b774f6633a5b9ac2b8f64d79fb24220d182"
