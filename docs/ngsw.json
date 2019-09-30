@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1569570720749,
+  "timestamp": 1569853074126,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,7 @@
       "urls": [
         "/es2015-polyfills.bda95d5896422d031328.js",
         "/index.html",
-        "/main.a85dff2b1adb23d371e2.js",
+        "/main.75969680188778331207.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
         "/styles.7caa6ef4e669ae29a193.css"
@@ -114,7 +114,7 @@
       ],
       "strategy": "freshness",
       "maxSize": 20,
-      "maxAge": 10800000,
+      "maxAge": 30000,
       "timeoutMs": 3000,
       "version": 1
     },
@@ -125,7 +125,7 @@
       ],
       "strategy": "freshness",
       "maxSize": 20,
-      "maxAge": 86400000000,
+      "maxAge": 30000,
       "timeoutMs": 3000,
       "version": 1
     },
@@ -136,7 +136,7 @@
       ],
       "strategy": "freshness",
       "maxSize": 20,
-      "maxAge": 86400000000,
+      "maxAge": 30000,
       "timeoutMs": 3000,
       "version": 1
     },
@@ -148,7 +148,18 @@
       ],
       "strategy": "freshness",
       "maxSize": 20,
-      "maxAge": 86400000000,
+      "maxAge": 30000,
+      "timeoutMs": 3000,
+      "version": 1
+    },
+    {
+      "name": "partners-endpoint",
+      "patterns": [
+        "\\/(?:.+\\/)?api\\/supporter\\/getForFreePartners\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 20,
+      "maxAge": 86400000,
       "timeoutMs": 3000,
       "version": 1
     },
@@ -159,7 +170,7 @@
       ],
       "strategy": "freshness",
       "maxSize": 20,
-      "maxAge": 86400000000,
+      "maxAge": 30000,
       "timeoutMs": 3000,
       "version": 1
     },
@@ -175,7 +186,7 @@
       ],
       "strategy": "freshness",
       "maxSize": 1000,
-      "maxAge": 86400000000,
+      "maxAge": 30000,
       "timeoutMs": 3000,
       "version": 1
     }
@@ -262,8 +273,8 @@
     "/assets/win8-tile-310x310.png": "e24ac0f55a3b3273c1b0fc66e31fb8f26adc6853",
     "/assets/win8-tile-70x70.png": "400083cb7f184cd15397305df58adc5935e17def",
     "/es2015-polyfills.bda95d5896422d031328.js": "1612fe8f7e8e0c856f0885ff179e93363c67834f",
-    "/index.html": "4a9993e3990fe849f3f184d7d69c911211fdfbf9",
-    "/main.a85dff2b1adb23d371e2.js": "f41d5703b2fc058fe9147bbaf39c7d474c7d0edd",
+    "/index.html": "d88a1531eeeff6708cf0e2494920d1a82356f07f",
+    "/main.75969680188778331207.js": "d9ed3b8e3964df09c57d94e70836bea926cd64c5",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/styles.7caa6ef4e669ae29a193.css": "e6f52b774f6633a5b9ac2b8f64d79fb24220d182"
